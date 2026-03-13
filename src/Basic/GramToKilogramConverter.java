@@ -10,7 +10,7 @@ public class GramToKilogramConverter {
         System.out.println("\nWelcome to the Gram to Kilogram Converter\n");
 
         System.out.print("Please enter the Grams you want to convert into Kilograms: ");
-        double gram = input.nextInt();
+        double gram = input.nextDouble();
 
         double kiloGram = gram / 1000;
 
