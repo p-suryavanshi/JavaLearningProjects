@@ -1,4 +1,4 @@
-package Basic;
+package VariablesAndDataTypes;
 
 public class WhileLoop {
 

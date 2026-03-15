@@ -1,5 +1,4 @@
-package Basic;
-import java.io.StringReader;
+package VariablesAndDataTypes;
 import java.util.*;
 
 public class CubeOfNumber {

@@ -1,4 +1,4 @@
-package Basic;
+package VariablesAndDataTypes;
 import java.util.*;
 
 public class MinutesIntoHoursAndMinutesConverter {
