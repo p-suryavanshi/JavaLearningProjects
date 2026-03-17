@@ -9,10 +9,13 @@ public class GreaterThanTheSquareOfAnotherNumber {
 
         System.out.println("\n*** Welcome to the Number Checker Number is Greater Than the Square of Another Number ***\n");
 
-        System.out.print("Please enter a Number in Decimal: ");
-        double num = input.nextDouble();
+        System.out.print("Please enter a Number: ");
+        int num = input.nextInt();
 
-        if ( num > num * num ) {
+        System.out.print("Now, enter the Another Number: ");
+        int anotherNum = input.nextInt();
+
+        if ( num > anotherNum * anotherNum ) {
             System.out.println("Number " + num + " is Greater Than the Square of Another Number.");
         }
         else {
