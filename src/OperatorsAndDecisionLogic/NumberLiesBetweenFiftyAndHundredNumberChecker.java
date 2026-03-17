@@ -1,7 +1,7 @@
 package OperatorsAndDecisionLogic;
 import java.util.*;
 
-public class BetweenFiftyAndHundredNumberChecker {
+public class NumberLiesBetweenFiftyAndHundredNumberChecker {
 
     public static void main(String[] args) {
 
