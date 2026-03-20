@@ -13,8 +13,12 @@ public class SmartNumberAnalyzer {
         System.out.print("Please enter a Number: ");
         int num = input.nextInt();
 
+        boolean by2 = num % 2 == 0;
+        boolean by3 = num % 3 == 0;
+        boolean by5 = num % 5 == 0;
+
         //Number is Even or Odd Checking
-        if ( num % 2 == 0) {
+        if ( by2) {
             System.out.println("Even");
         }
         else {
@@ -31,6 +35,37 @@ public class SmartNumberAnalyzer {
         }
 
         //Divisible by 2,3,5
+        if ( by2 && by3 && by5 ) {
+            System.out.println("Divisible by: 2,3,5");
+        } else if ( by2 && by3 ) {
+            System.out.println("Divisible by: 2,3");
+        } else if ( by2 && by5) {
+            System.out.println("Divisible by: 2,5");
+        } else if ( by3 && by5 ) {
+            System.out.println("Divisible by: 3,5");
+        } else if ( by2 ) {
+            System.out.println("Divisible by: 2");
+        } else if ( by3 ) {
+            System.out.println("Divisible by: 3");
+        } else if ( by5 ) {
+            System.out.println("Divisible by: 5");
+        } else {
+            System.out.println("Divisible by: None");
+        }
+
+        //Exactly one of 2,3,5
+        if ( (by2 && !by3 && !by5) || (!by2 && by3 && !by5) || (!by2 && !by3 && by5)) {
+            System.out.println("Exactly One: Yes");
+        } else {
+            System.out.println("Exactly One: No");
+        }
+
+        //None of 2,3,5
+        if ( !by2 && !by3 && !by5) {
+            System.out.println("None: Yes");
+        } else {
+            System.out.println("None: No");
+        }
 
     }
 
