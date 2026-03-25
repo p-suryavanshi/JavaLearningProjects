@@ -1,4 +1,4 @@
-package MonthAndDaysFinder;
+package OperatorsAndDecisionLogic.MonthAndDaysFinder;
 import java.util.*;
 
 public class MonthAndDaysFinder {
