@@ -1,4 +1,4 @@
-package OperatorsAndDecisionLogic;
+package OperatorsAndDecisionLogic.SmartCalculatorUsingSwitch;
 import java.util.*;
 
 public class SmartCalculator {
