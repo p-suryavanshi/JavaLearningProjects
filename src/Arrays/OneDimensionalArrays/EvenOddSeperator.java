@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.OneDimensionalArrays;
 import java.util.Scanner;
 
 public class EvenOddSeperator {
