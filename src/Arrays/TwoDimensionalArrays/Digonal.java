@@ -1,14 +1,13 @@
 package Arrays.TwoDimensionalArrays;
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class PrimaryDigonal {
+public class Digonal {
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("\n=== Welcome to the Primary Diagonal ===\n");
+        System.out.println("\n=== Welcome to the Primary & Secondary Diagonal ===\n");
 
         int [][]nums = new int[3][3];
 
