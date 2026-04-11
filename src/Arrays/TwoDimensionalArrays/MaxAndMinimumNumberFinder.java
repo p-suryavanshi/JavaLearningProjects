@@ -1,5 +1,4 @@
-package Arrays;
-import java.util.Arrays;
+package Arrays.TwoDimensionalArrays;
 import java.util.Scanner;
 
 public class MaxAndMinimumNumberFinder {
